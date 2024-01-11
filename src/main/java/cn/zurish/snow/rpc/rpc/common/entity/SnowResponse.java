@@ -1,6 +1,7 @@
 package cn.zurish.snow.rpc.rpc.common.entity;
 
-import cn.zurish.snow.rpc.common.enums.ResponseCode;
+
+import cn.zurish.snow.rpc.rpc.common.enums.ResponseCode;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
