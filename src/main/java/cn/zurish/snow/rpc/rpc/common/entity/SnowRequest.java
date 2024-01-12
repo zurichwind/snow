@@ -15,7 +15,7 @@ import java.io.Serializable;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SnowRequest implements Serializable {
+public class SnowRequest extends RpcEntity implements Serializable {
 
     private static final long serialVersionUID = 2024;
 

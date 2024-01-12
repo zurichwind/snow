@@ -17,7 +17,7 @@ import java.io.Serializable;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class SnowResponse<T>  implements Serializable {
+public class SnowResponse<T>  extends RpcEntity implements Serializable {
 
     /**
      * 响应对应的请求号
