@@ -8,7 +8,9 @@ public enum RpcErrorCode implements ErrorCode {
     UNSUPPORT_PROTOCOL("R000002", "不支持的协议包"),
     UNMATCHED_VERSION("R000003", "不匹配的版本号"),
     UNKNOWN_MESSAGE_TYPE("R000004", "不识别的协议数据包"),
-    UNKNOWN_SERIALIZER("R000005", "不识别的序列化协议" );
+    UNKNOWN_SERIALIZER("R000005", "不识别的序列化协议" ),
+    SERVER_NOT_FOUND("R000007","找不到对应的服务"),
+    REGISTER_SERVICE_FAILED("R000008","注册服务失败" );
 
     private final String code;
 

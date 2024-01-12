@@ -15,4 +15,8 @@ public interface IdGenerator {
 
       return Long.parseLong(formattedTimestamp);
   }
+
+    public static void main(String[] args) {
+        System.out.println(genarateId());
+    }
 }
