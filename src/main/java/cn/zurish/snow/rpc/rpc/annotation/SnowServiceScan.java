@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 @Documented
 //@Import({SnowComponentScanRegistrar.class})
 public @interface SnowServiceScan {
-    String[] value() default {};
+    String value() default "";
 
     String[] basePackages() default {};
 

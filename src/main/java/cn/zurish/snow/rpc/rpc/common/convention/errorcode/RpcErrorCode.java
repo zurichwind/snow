@@ -11,7 +11,11 @@ public enum RpcErrorCode implements ErrorCode {
     UNKNOWN_SERIALIZER("R000005", "不识别的序列化协议" ),
     SERVER_NOT_FOUND("R000007","找不到对应的服务"),
     REGISTER_SERVICE_FAILED("R000008","注册服务失败" ),
-    SERVICE_NOT_FOUND("R000009", "找不到对应的服务" );
+    SERVICE_NOT_FOUND("R000009", "找不到对应的服务" ),
+    SERVICE_INVOCATION_FAILURE("R000010","服务调用失败" ),
+    RESPONSE_NOT_MATCH("R000011","响应与请求号不匹配" ),
+    SERVICE_SCAN_PACKAGE_NOT_FOUND("R000012", "启动类ServiceScan注解缺失" ),
+    UNKNOWN_ERROR("R000013", "出现未知错误" );
 
     private final String code;
 

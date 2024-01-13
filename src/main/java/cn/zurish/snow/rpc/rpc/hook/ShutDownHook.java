@@ -5,6 +5,7 @@ import cn.zurish.snow.rpc.rpc.utils.NacosUtils;
 import lombok.extern.slf4j.Slf4j;
 
 /**
+ * 服务注销钩子
  * 2024/1/12 20:30
  */
 @Slf4j
