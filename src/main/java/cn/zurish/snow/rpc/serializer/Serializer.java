@@ -1,4 +1,4 @@
-package cn.zurish.snow.rpc.rpc.serializer;
+package cn.zurish.snow.rpc.serializer;
 
 /**
  * 序列化接口

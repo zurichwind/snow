@@ -1,7 +1,7 @@
-package cn.zurish.snow.rpc.rpc.common.convention.exception;
+package cn.zurish.snow.rpc.common.convention.exception;
 
-import cn.zurish.snow.rpc.rpc.common.convention.errorcode.ErrorCode;
-import cn.zurish.snow.rpc.rpc.common.convention.errorcode.RpcErrorCode;
+import cn.zurish.snow.rpc.common.convention.errorcode.ErrorCode;
+import cn.zurish.snow.rpc.common.convention.errorcode.RpcErrorCode;
 
 /**
  * 2024/1/11 21:28

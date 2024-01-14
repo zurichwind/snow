@@ -1,4 +1,4 @@
-package cn.zurish.snow.rpc.rpc.common.enums;
+package cn.zurish.snow.rpc.common.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

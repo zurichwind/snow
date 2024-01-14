@@ -1,6 +1,7 @@
-package cn.zurish.snow.rpc.rpc.common.enums;
+package cn.zurish.snow.rpc.common.enums;
 
-import cn.zurish.snow.rpc.rpc.serializer.*;
+
+import cn.zurish.snow.rpc.serializer.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -17,7 +18,7 @@ public enum SerializerType {
     PROTOBUF_SERIALIZER((byte) 0x04, "protobuf");
 
 
-    private final byte code;
+    private final Byte code;
 
     private final String name;
 
