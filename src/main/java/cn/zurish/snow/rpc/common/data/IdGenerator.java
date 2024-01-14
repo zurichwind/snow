@@ -1,4 +1,4 @@
-package cn.zurish.snow.rpc.rpc.common.data;
+package cn.zurish.snow.rpc.common.data;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
